@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/bootstrap.js">
+
+<style>
+    nav a:hover{
+        background-color: rgb(0, 255, 64);
+        color: black;
+        text-transform:uppercase;
+    }
+</style>
+
+
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <section class="row bg-dark p-2">
+            <div class="col-md-12">
+                <nav class="navbar navvar-expand-md nav-light">
+
+                    <div class="logo"><a href="https://fantasy.premierleague.com/"></a><img src="images/fpl logo.jpg" alt="" width="30%" height="30%"></div>
+                    <a href="displaypage.html" class="navbar-brand text-danger">Premier League Fan Club</a>
+
+                    <button type="button" class="navbar-toggle bg-light"
+                    data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar navbar-collapse" id="navbarCollapse">
+                        <div class="navbar nav">
+                            <a href="home.html" class="nav-item nav-link text-white">Home</a>
+                            <a href="about.html" class="nav-item nav-link text-white">About Us</a>
+                            <a href="services.html" class="nav-item nav-link text-white">Services</a>
+                            <a href="help.html" class="nav-item nav-link text-white">Help</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </div>
+
+    <div>
+        <div class="col-sm-4">
+            <label for="text" class="form-label">Enter Your Username</label>
+            <input type="text" class="form-control" id="inputusername" placeholder="Enter username">
+        </div>
+    </div>
+
+    <div>
+        <div class="col-sm-4">
+            <label for="password" class="form-label">Enter Your Password</label>
+            <input type="password" class="form-control" id="inputpassword" placeholder="Enter Password">
+        </div>
+    </div>
+<br>
+    <div class="mb-3">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label for="checkrememberme" class="form-check-label">Always Remember Me</label>
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#mymodal">Log in</button>
+
+   <center> <h2>Don't Have an Account?</h2>
+        <a href="registration.html">Sign Up</a></center>
+
+</body>
+</html>

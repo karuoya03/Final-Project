@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/bootstrap.js">
+
+    <style>
+        nav a:hover{
+            background-color: rgb(0, 255, 64);
+            color: black;
+            text-transform:uppercase;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <section class="row bg-dark p-2">
+            <div class="col-md-12">
+                <nav class="navbar navvar-expand-md navbar-light">
+
+                    <div class="logo"><a href="https://fantasy.premierleague.com/"></a><img src="images/fpl logo.jpg" alt="" width="30%" height="30%"></div>
+                    <a href="displaypage.html" class="navbar-brand text-danger">Premier League Fan Club</a>
+
+                    <button class="navbar-toggler" type="button" 
+                    data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar navbar-collapse" id="navbarcollapse">
+                        <div class="navbar nav">
+                            <a href="home.html" class="nav-item nav-link text-white">Home</a>
+                            <a href="about.html" class="nav-item nav-link text-white">About Us</a>
+                            <a href="services.html" class="nav-item nav-link text-white">Services</a>
+                            <a href="help.html" class="nav-item nav-link text-white">Help</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </div>
+
+<br>
+
+<div class="container">
+    <center><b><u><h3>Join Our Club Today</h3></u></b></center>
+    <form action="">
+        <div class="mb-3">
+            <div class="col-sm-4">
+                <label for="firstname" class="form-label">Enter Your First Name</label>
+                <input type="text" class="form-control" id="inputfirstname" placeholder="First Name">
+            </div>
+
+            <div>
+                <div class="col-sm-4">
+                    <label for="secondname" class="form-label">Enter Second Name</label>
+                    <input type="text" class="form-control" id="inputsecondname" placeholder="Second Name">
+                </div>
+            </div>
+
+            <div>
+                <div class="col-sm-4">
+                    <label for="text" class="form-label">Enter Your Username</label>
+                    <input type="text" class="form-control" id="inputusername" placeholder="Enter username">
+                </div>
+            </div>
+
+            <div>
+                <div class="col-sm-4">
+                    <label for="email" class="form-label">Enter Your Email</label>
+                    <input type="email" class="form-control" id="inputemailaddress" placeholder="Enter Email Address">
+                </div>
+            </div>
+
+            <div>
+                <div class="col-sm-4">
+                    <label for="password" class="form-label">Enter Your Password</label>
+                    <input type="password" class="form-control" id="inputpassword" placeholder="Enter Password">
+                </div>
+            </div>
+
+            <div>
+                <div class="col-sm-4">
+                    <label for="password" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="inputpassword" placeholder="Confirm Password">
+                </div>
+            </div>
+       
+            <br>
+
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox">
+                    <label for="checkrememberme" class="form-check-label">Always Remember Me</label>
+                </div>
+            </div>
+    
+
+        <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#mymodal">Sign Up</button>
+
+        </div>
+
+        <h2>Already Have an Account?</h2>
+        <a href="signin.html">Sign In</a>
+
+
+
+    </form>
+</div>
+
+</body>
+</html>
